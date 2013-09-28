@@ -12,7 +12,7 @@
 #import "NTMenuPluginProtocol.h"
 
 
-@interface OpenInSublime : NSObject <NTMenuPluginProtocol> {
+@interface OpenInMarked : NSObject <NTMenuPluginProtocol> {
   id<NTPathFinderPluginHostProtocol> host;
 
 }

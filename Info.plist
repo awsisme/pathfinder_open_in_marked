@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.rayintegrations.${PRODUCT_NAME:rfc1034Identifier}</string>
+	<string>com.razedigital.${PRODUCT_NAME:rfc1034Identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -23,7 +23,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSPrincipalClass</key>
-	<string>OpenInSublime</string>
+	<string>OpenInMarked</string>
 	<key>NTPluginBundleInfoKey_type</key>
 	<string>MENU_PLUGIN</string>
 </dict>

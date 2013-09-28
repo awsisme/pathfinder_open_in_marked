@@ -1,16 +1,16 @@
 //  Created by Ray Kola
 //  Based on Open in Textmate by orta therox on 06/09/2010. Copyright 2010 wgrids. All rights reserved.
 
-#import "OpenInSublime.h"
+#import "OpenInMarked.h"
 
 
-@implementation OpenInSublime
+@implementation OpenInMarked
 
 @synthesize host;
 
 + (id)plugin:(id<NTPathFinderPluginHostProtocol>)pathfinder_host;
 {
-  OpenInSublime* result = [[self alloc] init];
+  OpenInMarked* result = [[self alloc] init];
   result.host = pathfinder_host;
   
   return [result autorelease];
@@ -25,7 +25,7 @@
 {
   NSMenuItem* menuItem;
 
-  menuItem = [[[NSMenuItem alloc] initWithTitle:@"Open in Sublime" action:@selector(pluginAction:) keyEquivalent:@""] autorelease];
+  menuItem = [[[NSMenuItem alloc] initWithTitle:@"Open in Marked" action:@selector(pluginAction:) keyEquivalent:@""] autorelease];
   [menuItem setTarget:self];
   return menuItem;
 }
@@ -56,7 +56,7 @@
 		
 		if (path)
      {
-            [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Sublime Text 2"];
+            [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Marked"];
      }
    }
   

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:pathfinder_open_in_sublimetext.xcodeproj">
+      location = "self:pathfinder_open_in_marked.xcodeproj">
    </FileRef>
 </Workspace>
